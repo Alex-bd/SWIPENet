@@ -21,24 +21,13 @@ Training stage:
 python ssd512_training.py
 2. Update the weights using IMA algorithm
 python ssd512_updateweight.py
-3. Train the second detection model
-....
+3. Train the second, third ... detection models using 1 and 2.
 
 Testing stage:
 python ssd512_evaluation.py
 
 # Citation
 If you use these models in your research, please cite:
-@article{jiang2018context,
-  title={Context-aware mouse behavior recognition using hidden Markov models},
-  author={Jiang, Zheheng and Crookes, Danny and Green, Brian D and Zhao, Yunfeng and Ma, Haiping and Li, Ling and Zhang, Shengping and Tao, Dacheng and Zhou, Huiyu},
-  journal={IEEE Transactions on Image Processing},
-  volume={28},
-  number={3},
-  pages={1133--1148},
-  year={2018},
-  publisher={IEEE}
-}
 @ article{LongChenCV,  
 	author = {Chen Long, Liu Zhihua, Tong Lei, Jiang Zheheng, Wang Shengke, Dong Junyu and Zhou Huiyu},  
 	title = {Underwater object detection using Invert Multi-Class Adaboost with deep learning},  
