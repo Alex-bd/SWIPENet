@@ -27,6 +27,7 @@ Testing stage:
 python ssd512_evaluation.py
 
 # Citation
+```
 If you use these models in your research, please cite:
 		@ article{LongChenCV,  
 	author = {Chen Long, Liu Zhihua, Tong Lei, Jiang Zheheng, Wang Shengke, Dong Junyu and Zhou Huiyu},  
@@ -35,4 +36,5 @@ If you use these models in your research, please cite:
 	year = {2020}  
 } 
 
+```
 
