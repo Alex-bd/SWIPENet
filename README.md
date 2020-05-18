@@ -30,7 +30,8 @@ python ssd512_evaluation.py
 # Citation
 If you use these models in your research, please cite:
 
-@article{LongChenCV,  
+#@
+article{LongChenCV,  
 	author = {Chen Long, Liu Zhihua, Tong Lei, Jiang Zheheng, Wang Shengke, Dong Junyu and Zhou Huiyu},  
 	title = {Underwater object detection using Invert Multi-Class Adaboost with deep learning},  
 	journal = {Proc. of International Joint Conference on Neural Networks (IJCNN)},  
