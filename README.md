@@ -16,14 +16,14 @@ Municipal People’s Government. The Chinese website is http://www.cnurpc.org/in
 //en.cnurpc.org/. The contest holds annually from 2017, consisting of online and offline object detection contests. In this
 paper, we use URPC2017 and URPC2018 datasets from the online object detection contest. To use the datasets, participants need to communicate with zhuming@dlut.edu.cn and sign a commitment letter for data usage: http://www.cnurpc.org/a/js/2018/0914/102.html
 # Usage
-Training stage:
+**Training stage:**
 1. Train the first detection model: 
 python ssd512_training.py
 2. Update the weights using IMA algorithm:
 python ssd512_updateweight.py
 3. Train the second, third ... detection models using 1 and 2.
 
-Testing stage:
+**Testing stage:**
 python ssd512_evaluation.py
 
 # Citation
