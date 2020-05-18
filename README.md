@@ -35,6 +35,5 @@ If you use these models in your research, please cite:
 	journal = {Proc. of International Joint Conference on Neural Networks (IJCNN)},  
 	year = {2020}  
 } 
-
 ```
 
