@@ -1,15 +1,18 @@
 # SWIPENet
-A novel neural network architecture for dealing with small object detection and noise data in the underwater scenes. 
-Paper
+A novel neural network architecture for dealing with small object detection and noise data in the underwater scenes. Related paper has been accepted by the conference International Joint Conference on Neural Networks (IJCNN) 2020.
+
 Chen, L., Liu, Z., Tong, L., Jiang, Z., Wang, S., Dong, J. and Zhou, H. "Underwater object detection using Invert Multi-Class Adaboost with deep learning", Proc. of International Joint Conference on Neural Networks (IJCNN), Glasgow, UK, 19-24 July, 2020.
 # Abstract
 In recent years, deep learning based methods have achieved promising performance in standard object detection. However, these methods lack sufficient capabilities to handle underwater object detection due to these challenges: (1) Objects in real applications are usually small and their images are blurry, and (2) images in the underwater datasets and real applications accompany heterogeneous noise. To address these two problems, we first propose a novel neural network architecture, namely Sample-WeIghted hyPEr Network (SWIPENet), for small object detection. SWIPENet consists of high resolution and semantic rich Hyper Feature Maps which can significantly improve small object detection accuracy. In addition, we propose a novel sampleweighted loss function which can model sample weights for SWIPENet, which uses a novel sample re-weighting algorithm, namely Invert Multi-Class Adaboost (IMA), to reduce the influence of noise on the proposed SWIPENet. Experiments on two underwater robot picking contest datasets URPC2017 and URPC2018 show that the proposed SWIPENet+IMA framework achieves better performance in detection accuracy against several state-of-the-art object detection approaches.
 
 # Dependencies
 python >= 3.5
-numpy >= 1.18.0
-scipy
+
 keras
+
+numpy >= 1.18.0
+
+scipy
 # DataSets
 The underwater robot picking contest datasets is organized by National Natural Science Foundation of China and Dalian
 Municipal People’s Government. The Chinese website is http://www.cnurpc.org/index.html and the English website is http:
@@ -29,6 +32,7 @@ python ssd512_evaluation.py
 
 # Citation
 If you use these models in your research, please cite:
+
 @article{Zhao2020,  
 	author = {Long Chen and Junyu Dong and Huiyu Zhou},  
 	title = {Self-Supervised Learning from Multi-Sensor Data for Sleep Recognition},  
