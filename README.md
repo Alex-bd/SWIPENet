@@ -7,11 +7,8 @@ In recent years, deep learning based methods have achieved promising performance
 
 # Dependencies
 python >= 3.5
-
 keras
-
 numpy >= 1.18.0
-
 scipy
 # DataSets
 The underwater robot picking contest datasets is organized by National Natural Science Foundation of China and Dalian
