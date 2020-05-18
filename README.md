@@ -19,7 +19,7 @@ paper, we use URPC2017 and URPC2018 datasets from the online object detection co
 **Training stage:**
 1. Train the first detection model:
 ```python ssd512_training.py```
-2. Update the weights using IMA algorithm:  
+2. Update the weights using IMA algorithm:
 ```python ssd512_updateweight.py```
 3. Train the second, third ... detection models using 1 and 2.
 
