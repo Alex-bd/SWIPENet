@@ -2,7 +2,7 @@ from keras.optimizers import Adam, SGD
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler, TerminateOnNaN, CSVLogger
 from keras import backend as K
 from math import ceil
-from models.keras_ssd512_skip import ssd_512
+from models.keras_ssd512 import ssd_512
 from keras_loss_function.keras_ssd_loss import SSDLoss
 from ssd_encoder_decoder.ssd_input_encoder import SSDInputEncoder
 from data_generator.object_detection_2d_data_generator import DataGenerator
