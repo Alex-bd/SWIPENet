@@ -1,6 +1,6 @@
 from keras import backend as K
 from keras.optimizers import Adam
-from models.keras_ssd512_skip import ssd_512
+from models.keras_ssd512 import ssd_512
 from keras_loss_function.keras_ssd_loss import SSDLoss
 from data_generator.object_detection_2d_data_generator import DataGenerator
 from eval_utils.average_precision_evaluator_test import Evaluator
